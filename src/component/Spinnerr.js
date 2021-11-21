@@ -1,0 +1,14 @@
+import React from 'react'
+import loading from './loading.gif'
+
+const Spinnerr = ()=> {
+     return (
+            <div>
+                <div className="text-center">
+                <img className="my-3" src={loading} alt="loading" />
+                </div>                
+            </div>
+        )
+    }
+
+export default Spinnerr
